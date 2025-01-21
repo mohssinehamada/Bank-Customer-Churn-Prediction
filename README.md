@@ -9,6 +9,7 @@ The project covers:
 - Building a logistic regression model pipeline
 - Evaluating model performance using metrics, confusion matrix, and ROC curve
 - Visualizing data distributions and feature correlations
+![download (13)](https://github.com/user-attachments/assets/1f6a5844-a929-42e3-8c42-38a6401d44b5)
 
 ## Technologies Used
 - Python
@@ -31,25 +32,6 @@ The dataset contains customer information such as:
 
 The data is loaded from a CSV file named `Bank Customer Churn Prediction.csv`.
 
-## Project Highlights
-1. **Preprocessing**
-   - Numerical features are standardized using `StandardScaler`.
-   - Categorical features are encoded using `OneHotEncoder`.
 
-2. **Model Building**
-   - A logistic regression model is trained using a pipeline.
-   - Class weights are computed to address imbalanced data.
 
-3. **Evaluation**
-   - Model predictions are evaluated using a classification report and confusion matrix.
-   - A Receiver Operating Characteristic (ROC) curve is plotted to visualize the model's performance.
 
-4. **Visualizations**
-   - Distribution plots of numerical features segmented by churn status.
-   - Correlation heatmap of numerical features.
-
-## How to Use
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/bank-customer-churn-prediction.git
-   cd bank-customer-churn-prediction
